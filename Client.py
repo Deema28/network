@@ -38,7 +38,7 @@ def main():
         end_time = time.time()
         rtt_ms = (end_time - start_time) * 1000
 
-        print(f"Result from server: {response}  |  RTT: {rtt_ms:.3f} ms")
+        print(f"Result from server: {response}  |  RTT: {rtt_ms:.3f} ms\n")
 
     client_socket.close()
     print("[CLIENT] Connection closed.")
