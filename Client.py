@@ -3,7 +3,7 @@ import time
 
 
 
-HOST = "127.0.0.1"
+HOST = "172.20.10.2"
 PORT = 5000
 
 def main():
