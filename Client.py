@@ -2,7 +2,6 @@ import socket
 import time
 
 
-# Server Configuration
 HOST = "172.20.10.2"  # Server IP address
 PORT = 5000 # Port number match the Server for the TCP connection
 
